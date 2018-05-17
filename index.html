@@ -45,6 +45,171 @@
 	  </section>
 	</section>
 
+  <section data-markdown>
+	  <textarea data-template>
+## Financial Statements
+
+Financial statements are the main way in which a company communicates its performance to the market.
+
+-  Audited statements are often required by bond and stock investors.
+
+-  Financial statements are a major source of information with which to make financial decisions.
+
+</textarea>
+</section>
+
+<section data-markdown>
+  <textarea data-template>
+## Statements
+
+The most important financial statements are:
+
+1.  The Balance Sheet
+
+2.  The Income Statement
+
+3. The Cash Flow Statement
+
+</textarea>
+</section>
+
+<section data-markdown>
+  <textarea data-template>
+
+## The Balance Sheet
+
+The balance sheet is a snapshot of the assets a firm owns, and how they are financed (i.e. its [capital structure](https://en.wikipedia.org/wiki/Capital_structure)).  Since every asset must be claimed by either stock or bond holders, we have the identity $Assets \equiv Liabilities + Stockholders'\ Equity$.
+
+- Note the use of $\equiv$ meaning 'is defined as' and not $=$ which means 'is equal to'.  An equation such as $x^2 - 2 = 0$ will only hold for some ([famous in the case of this equation](https://en.wikipedia.org/wiki/Square_root_of_2)) values of $x$.  However, the balance sheet identity will always hold.
+
+- This is because of the definition of equity, which is whatever is left over after a company pays its debts.  So the value of equity is defined as $Assets - Liabilities$ and the balance sheet identity always holds.
+
+</textarea>
+</section>
+
+
+<section data-markdown>
+  <textarea data-template>
+
+## Balance Sheet Concepts
+
+Following are three things to keep in mind while analyzing a balance sheet.
+
+$1$.  Market Value versus Accounting (Book) Value:
+
+-  Asset values are the price paid for the asset (assets are 'carried at cost').  This may differ markedly from the market value of an asset---the price at which you could sell the asset.
+
+-  Some vital firm assets aren't listed on the balance sheet---employee knowledge and skills; proper managerial oversight; etc.
+
+</textarea>
+</section>
+
+<section data-markdown>
+  <textarea data-template>
+
+## Balance Sheet Concepts
+
+$2$.  Leverage:
+
+-  *Leverage* is the proportion of debt relative to equity financing of a firm's assets.  More debt relative to equity means higher leverage.  This term reflects that more debt relative to equity magnifies equity returns---which is analogous to how a lever affords [greater output force than input force through a mechanical advantage](https://en.wikipedia.org/wiki/Lever).
+
+-  The balance sheet is used to monitor firm leverage, given it shows how assets are financed between debt and equity ($Assets \equiv Debt + Equity$).
+
+</textarea>
+</section>
+
+
+<section data-markdown>
+  <textarea data-template>
+
+## Balance Sheet Concepts
+
+$3$.  Liquidity:
+
+- *Liquidity* is the ease with which you can turn an asset into cash without dropping its value.  Assets are listed on the balance sheet in order of liquidity (from most liquid down to least).
+
+-  First assets on the balance sheet are divided into *Current* (assets that will be turn into cash within a year) and *Fixed* assets.  Assets are ordered by liquidity within both categories also.
+
+- A firm wants to maintain an appropriate level of liquidity---to much liquidity and the firm earns a return that is low (near cash). Conversely, having too little liquidity the firm risks not being able to pay its expenses (or having to sell fixed assets for low prices to meet expenses).
+
+</textarea>
+</section>
+
+<section data-markdown>
+  <textarea data-template>
+
+## The Income Statement
+
+The income statement measures a firm's performance over some period of time.
+
+-  If the balance sheet is a snapshot (picture) then the income statement is like a video recording.
+
+-  Roughly, the income statement looks like: $Revenue - Expenses \equiv Income$.
+
+-  Accounting standards ([GAAP](https://en.wikipedia.org/wiki/Generally_accepted_accounting_principles)) require matching revenues with expenses.  This means when you earn income may not be when you receive cash---a sale on credit will be income even though you may not receive the cash for some time.
+
+</textarea>
+</section>
+
+<section data-markdown>
+  <textarea data-template>
+
+## The Income Statement
+
+- Noncash Items: To match revenues with expenses noncash items are added to the income statement.  For example, the purchase of a truck will be *depreciated* which means the expense of a truck on the income statement isn't incurred when you pay for the truck, but rather the expense is realized over the truck's life (while the truck is earning revenue).
+
+-  Variable vs Fixed Costs:  no distinction is made on the income statement between *variable* and *fixed* costs.
+
+</textarea>
+</section>
+
+<section data-markdown>
+  <textarea data-template>
+
+## The Cash Flow Statement
+
+The cash flow statement is a combination of balance sheet and income statement.
+
+-  The statement captures how the changes in both balance sheet and income affects cash and cash equivalents.
+
+-  There are three portions to the cash flow statement: Operating, Investing, and Financing activities.
+
+-  Cash flow on the accounting statement is not equivalent with financial cash flow.  Among the causes of the disparity is the treatment of interest expense, which the accounting treats as an operating expense.  For the financial analyst, interest is purely a financing (and not operating) activity.
+
+</textarea>
+</section>
+
+<section data-markdown>
+  <textarea data-template>
+
+## Interactive App
+
+In the following interactive app you can query the balance sheet and income statement for any stock trading on US exchanges.
+
+-  You can then search for any item using the search box.  As you type it will return all items which match your input.
+-  You can also page through the statement in order with the page number on the bottom right.
+
+</textarea>
+</section>
+
+<section data-markdown>
+  <textarea data-template>
+
+## Interactive App
+
+For example, search for Tesla's (TSLA) financial statements.
+
+- Place the cursor in the 'Stock's Name' box and hit backspace.  Type 'tesl' and you should see Tesla's common stock.  Hit 'Enter'.
+
+- On the income statement search for Operating Income and Net Income --- you only have to type "oper" and "net" and you should be able to see each.  Note both are negative.
+
+- Then on the balance sheet search for Long-term Debt. You only have to type "long" and you should see it.  Note TSLA borrowed about \$1.3 billion in 2014.
+
+- Usually firms with positive Operating Income borrow heavily --- so they can reduce taxes through the interest tax shield.  TSLA, however, is choosing to finance its expansion with debt rather than equity.
+
+</textarea>
+</section>
+
 
 
 
@@ -79,7 +244,7 @@
   Reveal.initialize({
 
   transition: 'convex',
-  
+
   <!-- menu: { -->
   <!-- 	// Specifies which side of the presentation the menu will  -->
   <!-- 	// be shown. Use 'left' or 'right'. -->
@@ -190,10 +355,10 @@
   <!-- }, -->
 <!-- end audio section -->
 
-  
-  chalkboard: { 
+
+  chalkboard: {
   src: null,
-  readOnly: undefined, 
+  readOnly: undefined,
   toggleChalkboardButton: { left: "90px", bottom: "30px", top: "auto", right: "auto" },
   toggleNotesButton: { left: "150px", bottom: "30px", top: "auto", right: "auto" },
   },
